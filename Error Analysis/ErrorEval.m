@@ -1,5 +1,5 @@
 %% Calculate PAR from raw
-Base.PAR = (Base.Volt)*100; %Convert from mV to umol/m^2s
+% Base.PAR = (Base.Volt)*100; %Convert from mV to umol/m^2s
 
 BaseTT = table2timetable(Base);
 TestTT = table2timetable(Test);
